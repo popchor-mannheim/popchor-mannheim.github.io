@@ -1,6 +1,6 @@
 # Webpage Popchor Mannheim
 
-The webpage of popchor Mannheim is planned to strengthen our digital presence beyond social media platforms. It shall be a simple yet delightful webpage which is inline with our brand strategy and conveys proffesionalism.
+The webpage of popchor Mannheim is planned to strengthen our digital presence beyond social media platforms. It shall be a simple yet delightful webpage which is inline with our brand strategy and conveys professionalism.
 
 ## Goals
 Provide basic information about the choir publicly:
@@ -34,9 +34,16 @@ Respect end users and avoid storing cookies/data on user devices as much as poss
 # Tech stack
 Based on goals, non-goals and technical considerations, [Github Pages](https://docs.github.com/en/pages) is chosen for our website together with the static side generator [Jekyll](https://jekyllrb.com/docs/). This combination has many advantages:
 - the whole website content can be managed from a github repository
-- full version history, go back at any point in time to a previous version
+  - new features can be shipped continuously
+  - full version history, go back to a previous version at any point in time
 - webpages can be expressed as simple [markdown](https://www.markdownguide.org/getting-started/).
   - allows non-technicans to edit webpage content
   - fallback to hypertext markup in case of special requirements
-- hosting is fully taken over by github at no cost, we only require a custom domain and a SSL certificate
+- hosting is fully taken over by github at no cost, we only require a custom domain
 - minimal attack surface as the build output is static file content, served via https
+
+Disadvantages:
+- Github pages offers no insights on webpage hits.
+- Github is not suitable for large binary files (e. g. picture/audio/video files). A file should not exceed 25MB.
+
+To mitigate the distadvantages, we could consider a switch to [Cloudfare Pages](https://pages.cloudflare.com/) which comes with basic statistics out of the box. This should be rather simple as we can continue to use the github repository as source for the webpage. For audio and video files, the assumption is that we upload them to other public platforms (e. g. youtube) as they are public content anyways and then we can just embed them into our webpage.
