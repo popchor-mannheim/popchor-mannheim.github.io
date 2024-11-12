@@ -15,7 +15,7 @@ Provide basic information about the choir publicly:
 ## Non-Goals
 
 #### No web shop
-It's a non-goal to provide web shop functionality (ticket platform, merch shop). Reasoning: As long as we don't do business via the website, we don't have to fullfil a bunch of regulatory requirements.
+It's a non-goal to provide web shop functionality (ticket platform, merch shop). Reasoning: As long as we don't do business via the website, we don't have to fulfill a bunch of regulatory requirements (EU digital services act and so on)
 
 #### No internal area
 It's a non-goal to share choir internal information via the website. This implies there is no "secured" area with additional content for choir members. Reasoning: There are enough tools out there to do exactly that and anything we built customly for our website will never be as good as existing. In addition, the effort of providing sites for an authorized set of users is much higher compared to a fully publicly website.
@@ -31,14 +31,14 @@ Build the webpage in a way that allows us to choose our hosting provider freely 
 #### Privacy for users
 Respect end users and avoid storing cookies/data on user devices as much as possible.
 
-# Tech stack
+## Tech stack
 Based on goals, non-goals and technical considerations, [Github Pages](https://docs.github.com/en/pages) is chosen for our website together with the static side generator [Jekyll](https://jekyllrb.com/docs/). This combination has many advantages:
 - the whole website content can be managed from a github repository
   - new features can be shipped continuously
   - full version history, go back to a previous version at any point in time
 - webpages can be expressed as simple [markdown](https://www.markdownguide.org/getting-started/).
   - allows non-technicans to edit webpage content
-  - fallback to hypertext markup in case of special requirements
+  - fully customizable and flexible with fallback to standard HTML
 - hosting is fully taken over by github at no cost, we only require a custom domain
 - minimal attack surface as the build output is static file content, served via https
 
