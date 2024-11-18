@@ -1,0 +1,26 @@
+header:
+  - titles:
+      # @start locale config
+      de      : &de       Über uns
+      # @end locale config
+    url: /ueber-uns
+  - titles:
+      # @start locale config
+      de      : &de       Veranstaltungen
+      # @end locale config
+    url: /veranstaltungen
+  - titles:
+      # @start locale config
+      de      : &de       Mitsingen
+      # @end locale config
+    url: /mitsingen
+  - titles:
+      # @start locale config
+      de      : &de       Presse
+      # @end locale config
+    url: /presse
+  - titles:
+      # @start locale config
+      de      : &de       Kontakt
+      # @end locale config
+    url: /kontakt

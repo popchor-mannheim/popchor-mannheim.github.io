@@ -1,0 +1,10 @@
+# @start locale config
+## => English
+########################
+de: &DE
+  LAST_UPDATED    : "Last updated"
+  DATE_FORMAT     : "%b %d, %Y"
+  COPYRIGHT_DATES : >
+    "today" | date: "%Y"
+
+# @end locale config
