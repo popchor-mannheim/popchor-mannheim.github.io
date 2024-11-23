@@ -8,16 +8,12 @@
     <div class="main">
       <div class="header__title">
         <div class="header__brand">
-          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo">
-          {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
-          {%- if site.title -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
-          {%- endif -%}
+          {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+          <a href="{{ __return }}">
+            <img src="{{ '/assets/images/logo_small.png' | relative_url }}" alt="Logo">
+          </a>
         </div>
-        {%- if site.search.provider -%}
-          <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-        {%- endif -%}
       </div>
       {%- if site.data.navigation.header -%}
       <nav class="navigation">
@@ -40,5 +36,15 @@
         </ul>
       </nav>
       {%- endif -%}
+      <div class="header__title right">
+        <div class="header__brand">
+          {%- include snippets/get-nav-url.html path=_paths_root -%}
+          {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+          <a href="{{ __return }}">
+            <div class="logo"></div>
+            <!-- <img src="{{ '/assets/images/logo-mannheimer-liedertafel.svg' | relative_url }}" alt="Logo"> -->
+          </a>
+        </div>
+      </div>
     </div>
   </header>
