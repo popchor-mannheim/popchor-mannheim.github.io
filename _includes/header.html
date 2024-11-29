@@ -1,10 +1,4 @@
-{%- if include.theme == 'dark' -%}
   <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
-{%- elsif include.theme == 'light' -%}
-  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
-{%- else -%}
-  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
-{%- endif -%}
     <div class="main">
       <div class="header__title">
         <div class="header__brand">
@@ -37,7 +31,7 @@
         <div class="header__brand">
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
-          <a href="{{ __return }}">
+          <a href="https://mannheimer-liedertafel.de/">
             <div class="logo"></div>
             <!-- <img src="{{ '/assets/images/logo-mannheimer-liedertafel.svg' | relative_url }}" alt="Logo"> -->
           </a>
