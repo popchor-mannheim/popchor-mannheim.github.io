@@ -19,9 +19,9 @@ article_header:
     src: /assets/images/home_background.jpg
 ---
 
-<div markdown="1" class="white-page">
+<div markdown="1" class="ueber-uns hero">
 
-# Über den Chor
+# Über den <br/> Chor
 
 Unser Repertoire reicht von Popsongs bis zu Filmhits, mit einem jährlichen Highlight: unserem stimmungsvollen Weihnachtskonzert. Die meisten von uns sind zwischen 25 und 55 Jahren alt und kommen aus ganz Mannheim und Umgebung.
 

@@ -1,0 +1,31 @@
+.ueber-uns {
+  min-height: 100vh;
+
+  margin-left: map-get($spacers, 5) * 2;
+  margin-right: 45%;
+
+  @include media-breakpoint-down(lg) {
+    margin-left: 25%;
+    margin-right: map-get($spacers, 5);
+  }
+
+  @include media-breakpoint-down(md) {
+    margin-left: map-get($spacers, 4);
+    margin-right: map-get($spacers, 4);
+  }
+
+
+  h1 {
+    line-height: map-get($base, font-size-h1-xl);
+
+    @include media-breakpoint-down(lg) {
+      line-height: map-get($base, font-size-h1-lg);
+    }
+  }
+
+  p {
+    font-size: map-get($base, font-size-root);
+    font-weight: 500;
+    text-align: justify;
+  }
+}
