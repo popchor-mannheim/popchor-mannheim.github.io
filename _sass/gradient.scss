@@ -1,0 +1,8 @@
+.gradient {
+    min-height: 100vh;
+    background: linear-gradient(0.25turn, #ffae7f, #c46b83);
+    
+    div {
+        @include page-borders;
+    }
+}

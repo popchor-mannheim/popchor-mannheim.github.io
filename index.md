@@ -19,22 +19,22 @@ article_header:
     src: /assets/images/home_background.jpg
 ---
 
-<div markdown="1" class="ueber-uns hero">
-
+<div markdown="1" id="ueber-uns" class="ueber-uns hero">
 # Über den <br/> Chor
 
 Unser Repertoire reicht von Popsongs bis zu Filmhits, mit einem jährlichen Highlight: unserem stimmungsvollen Weihnachtskonzert. Die meisten von uns sind zwischen 25 und 55 Jahren alt und kommen aus ganz Mannheim und Umgebung.
 
 </div>
-
-<div markdown="1" class="gradient two-column-layout">
-<div markdown="1" class="column-1">
+<div class=gradient>
+<div markdown="1" class="grid grid--p-5">
+<div markdown="1" class="cell cell--12 cell--lg-4">
 Abwechslungsreiche Musik, eine starke Chorgemeinschaft und spannende Projekte – dafür steht der Popchor Mannheim.
 </div>
 
-<div markdown="1" class="column-2">
+<div markdown="1" class="cell cell--12 cell--lg-8">
+![Chor in Aktion](assets/images/ueber-uns.jpg)
 </div>
-
+</div>
 </div>
 
 <div markdown="1" class="grey two-column-layout">
