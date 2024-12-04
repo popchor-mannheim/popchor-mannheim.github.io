@@ -5,7 +5,7 @@
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           <a href="{{ __return }}">
-            <img src="{{ '/assets/images/logo_small.png' | relative_url }}" alt="Logo">
+            <img src="{{ '/assets/images/logo_small.png' | relative_url }}" style="max-width:unset" alt="Logo">
           </a>
         </div>
       </div>
@@ -33,7 +33,6 @@
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           <a href="https://mannheimer-liedertafel.de/">
             <div class="logo"></div>
-            <!-- <img src="{{ '/assets/images/logo-mannheimer-liedertafel.svg' | relative_url }}" alt="Logo"> -->
           </a>
         </div>
       </div>
