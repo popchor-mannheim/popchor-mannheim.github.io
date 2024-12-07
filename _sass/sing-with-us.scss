@@ -1,0 +1,15 @@
+.sing-with-us{
+    .cell {
+    
+        padding: map-get($spacers, 5);
+    
+        @include media-breakpoint-down(lg) {
+            padding: map-get($spacers, 3);
+        }
+    
+        @include media-breakpoint-down(md) {
+            padding: map-get($spacers, 1);
+        }
+    
+    }
+}

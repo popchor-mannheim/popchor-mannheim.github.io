@@ -1,0 +1,24 @@
+img {
+    max-width: 100%
+}
+
+.ueber-uns-1 {
+
+    .cell {
+    
+        padding: map-get($spacers, 5);
+    
+        @include media-breakpoint-down(lg) {
+            padding: map-get($spacers, 3);
+        }
+    
+        @include media-breakpoint-down(md) {
+            padding: map-get($spacers, 1);
+        }
+    
+    }
+
+    .grid {
+        justify-content: center;
+    }
+}

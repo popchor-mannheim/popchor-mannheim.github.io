@@ -3,7 +3,7 @@ header:
       # @start locale config
       de      : &de       Über uns
       # @end locale config
-    url: /ueber-uns
+    url: /about-us
   - titles:
       # @start locale config
       de      : &de       Veranstaltungen
