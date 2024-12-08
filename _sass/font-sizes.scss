@@ -1,11 +1,87 @@
-p {
+body {
     font-size: map-get($base, font-size-xl);
 
-    @include media-breakpoint-down(lg) {
-        font-size: map-get($base, font-size-lg);
+    h1 {
+        font-size: map-get($base, font-size-h1-xl)
     }
 
-    @include media-breakpoint-down(md) {
+    h2 {
+        font-size: map-get($base, font-size-h2-xl)
+    }
+
+    h3 {
+        font-size: map-get($base, font-size-h3-xl)
+    }
+
+    h4 {
+        font-size: map-get($base, font-size-h4-xl)
+    }
+
+    h5 {
+        font-size: map-get($base, font-size-h5-xl)
+    }
+
+    h6 {
+        font-size: map-get($base, font-size-h6-xl)
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    body {
+        font-size: map-get($base, font-size-lg);
+
+        h1 {
+            font-size: map-get($base, font-size-h1-lg)
+        }
+
+        h2 {
+            font-size: map-get($base, font-size-h2-lg)
+        }
+
+        h3 {
+            font-size: map-get($base, font-size-h3-lg)
+        }
+
+        h4 {
+            font-size: map-get($base, font-size-h4-lg)
+        }
+
+        h5 {
+            font-size: map-get($base, font-size-h5-lg)
+        }
+
+        h6 {
+            font-size: map-get($base, font-size-h6-lg)
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    body {
         font-size: map-get($base, font-size-md);
+
+        h1 {
+            font-size: map-get($base, font-size-h1-md)
+        }
+
+        h2 {
+            font-size: map-get($base, font-size-h2-md)
+        }
+
+        h3 {
+            font-size: map-get($base, font-size-h3-md)
+        }
+
+        h4 {
+            font-size: map-get($base, font-size-h4-md)
+        }
+
+        h5 {
+            font-size: map-get($base, font-size-h5-md)
+        }
+
+        h6 {
+            font-size: map-get($base, font-size-h6-md)
+        }
     }
 }

@@ -61,7 +61,6 @@ Du möchtest mitmachen? Wir freuen uns immer über neue Sängerinnen und Sänger
 
 </div>
 </div>
-
 <div markdown="1" class="gradient grid sing-with-us">
 <div markdown="1" class="cell cell--12 cell--lg-6">
 ![Chor in action](assets/images/sing-with-us.jpg)
@@ -75,22 +74,30 @@ Du möchtest mitmachen? Wir freuen uns immer über neue Sängerinnen und Sänger
 </div>
 </div>
 
-<div markdown="1" class="white-page two-column-layout">
-<div markdown="1" class="column-1">
-  <!-- image christina-->
+<div markdown="1" class="choir-conducting">
+# Chorleitung
+<div markdown="1" class="grid">
+<div markdown="1" class="cell cell--12 cell--lg-4">
+![Chorleitung: Christina](assets/images/christina-profile.jpg)
 </div>
 
-<div markdown="1" class="column-2">
-"quotes"
+<div markdown="1" class="cell cell--12 cell--lg-8">
+> "By featuring positive feedback from others, your potential clients won’t have to take your word for it, instead they can hear and learn from others’ experiences."
+
+**Christina Bandic** <br/>
+MUSIKALISCHE LEITUNG
 </div>
-<div markdown="1" class="column-1">
-  <!-- image carsten-->
+<div markdown="1" class="cell cell--12 cell--lg-4">
+![Chorleitung: Carsten](assets/images/carsten-profile.jpg)
 </div>
 
-<div markdown="1" class="column-2">
-"quotes"
-</div>
+<div markdown="1" class="cell cell--12 cell--lg-8">
+> "By featuring positive feedback from others, your potential clients won’t have to take your word for it, instead they can hear and learn from others’ experiences."
 
+**Carsten Wegner** <br/>
+MUSIKALISCHE LEITUNG
+</div>
+</div>
 </div>
 
 <div markdown="1" class="gradient two-column-layout">
