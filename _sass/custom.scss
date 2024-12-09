@@ -1,6 +1,8 @@
 @import 'font-sizes';
+@import 'adaptive-property';
 @import 'page-borders';
 @import 'gradient';
+@import 'header';
 @import 'about-us';
 @import 'about-us-1';
 @import 'upcoming-events';
@@ -12,52 +14,6 @@
     .article__header--overlay .overlay {
         min-height: 70rem
     }
-}
-
-/*
-header overlay background (100% opacity)
-*/
-.header {
-    background: rgba(0, 0, 0, 0)
-}
-
-.main {
-    margin: unset;
-    padding: unset;
-    max-width: unset
-}
-
-/* header bar size */
-.header__title {
-    flex-grow: 0;
-    height: 10rem;
-    margin: 4rem;
-}
-
-.header__title.right {
-    margin-right: unset;
-}
-
-.header__title.right .logo {
-    background-image: url("/assets/images/logo-mannheimer-liedertafel.svg");
-    background-position: -180px 0px;
-    width: 200px;
-    height: 200px;
-}
-
-nav {
-    flex-grow: 1;
-    align-self: center
-}
-
-.navigation>ul {
-    justify-content: space-between;
-    margin-bottom: 4rem;
-}
-
-.navigation>ul>li>a {
-    font-weight: bold;
-    font-size: 1.75rem;
 }
 
 /** TODO h1 shadow/glow effect */

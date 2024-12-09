@@ -1,0 +1,67 @@
+/*
+header overlay background (100% opacity)
+*/
+.header {
+    background: rgba(0, 0, 0, 0)
+}
+
+.main {
+    margin: unset;
+    padding: unset;
+    max-width: unset;
+}
+
+.header__title {
+    @include adaptive-property(height, 10rem, 8rem, 6rem);
+    @include adaptive-property(margin, 2rem, 1rem, 0.5rem);
+}
+
+.header__title.left .header__brand {
+    justify-content: start;
+}
+
+.header__title.right {
+
+    .header__brand {
+        justify-content: end;
+        height: 100%;
+        width: 100%;
+    }
+
+    a {
+        height: 100%;
+        width: 73%;
+    }
+
+    .logo {
+        background-image: url("/assets/images/logo-mannheimer-liedertafel.svg");
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+nav {
+    flex-grow: 0.5;
+    align-self: center
+}
+
+.navigation>ul {
+    justify-content: space-between;
+    @include adaptive-property(margin-bottom, 4rem, 2rem, 1rem);
+}
+
+.navigation>ul>li>a {
+    font-weight: bold;
+    @include adaptive-property-xl(font-size,
+        map-get($base, font-size-h4-xl),
+        map-get($base, font-size-h4-lg),
+        map-get($base, font-size-h4-sm),
+        map-get($base, font-size-h4-xs));
+
+    @include media-breakpoint-down(md, (md: 850px)) {
+        font-size: map-get($base, font-size-h4-xs);    
+    }
+}

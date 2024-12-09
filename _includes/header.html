@@ -1,11 +1,11 @@
   <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
     <div class="main">
-      <div class="header__title">
+      <div class="header__title left">
         <div class="header__brand">
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           <a href="{{ __return }}">
-            <img src="{{ '/assets/images/logo_small.png' | relative_url }}" style="max-width:unset" alt="Logo">
+            <img src="{{ '/assets/images/logo_small.png' | relative_url }}" alt="Logo">
           </a>
         </div>
       </div>
