@@ -2,22 +2,32 @@
 header overlay background (100% opacity)
 */
 .header {
-    background: rgba(0, 0, 0, 0)
-}
+    background: rgba(0, 0, 0, 0);
 
-.main {
-    margin: unset;
-    padding: unset;
-    max-width: unset;
+    nav {
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+    }
+
+    .main {
+        margin: unset;
+        padding: unset;
+        max-width: unset;
+        @include media-breakpoint-down(md) {
+            flex-direction: row;
+        }
+    }
 }
 
 .header__title {
-    @include adaptive-property(height, 10rem, 8rem, 6rem);
-    @include adaptive-property(margin, 2rem, 1rem, 0.5rem);
+    height: unset;
+    @include adaptive-property(margin, 2rem, 1rem, 1rem);
 }
 
 .header__title.left .header__brand {
     justify-content: start;
+    height: unset;
 }
 
 .header__title.right {

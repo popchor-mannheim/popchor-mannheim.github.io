@@ -7,18 +7,8 @@
 
     .cell {
 
-        padding-left: map-get($spacers, 5);
-        padding-right: map-get($spacers, 5);
-
-        @include media-breakpoint-down(lg) {
-            padding-left: map-get($spacers, 3);
-            padding-right: map-get($spacers, 3);
-        }
-    
-        @include media-breakpoint-down(md) {
-            padding-left: map-get($spacers, 5);
-            padding-right: map-get($spacers, 5);
-        }
+        @include adaptive-property(padding-left, map-get($spacers, 5), map-get($spacers, 3), map-get($spacers, 1));
+        @include adaptive-property(padding-right, map-get($spacers, 5), map-get($spacers, 3), map-get($spacers, 1))
     
     }
 

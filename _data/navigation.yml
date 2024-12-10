@@ -3,24 +3,29 @@ header:
       # @start locale config
       de      : &de       Über uns
       # @end locale config
-    url: /about-us
+    url: >-
+      #ber-den--chor
   - titles:
       # @start locale config
       de      : &de       Veranstaltungen
       # @end locale config
-    url: /veranstaltungen
+    url: >-
+      #kommende-events
   - titles:
       # @start locale config
       de      : &de       Mitsingen
       # @end locale config
-    url: /mitsingen
+    url: >-
+      #mitsingen-1
   - titles:
       # @start locale config
-      de      : &de       Presse
+      de      : &de       Chorleitung
       # @end locale config
-    url: /presse
+    url: >-
+      #chorleitung
   - titles:
       # @start locale config
       de      : &de       Kontakt
       # @end locale config
-    url: /kontakt
+    url: >-
+      #kontakt

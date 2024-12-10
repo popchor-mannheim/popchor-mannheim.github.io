@@ -53,7 +53,6 @@ Oktober 2025
 ## Mitsingen
 
 <br/>
-<br/>
 Du möchtest mitmachen? Wir freuen uns immer über neue Sängerinnen und Sänger in allen Stimmlagen! Schau doch einfach mal unverbindlich bei einer unserer Proben vorbei. Schreibe uns an!
 <br/>
 <br/>
