@@ -1,33 +1,72 @@
+<footer class="gradient js-page-footer">
+  <div class="main">
 
-<footer class="footer py-4 js-page-footer">
-    <div class="main">
-  
-      {%- assign _site_author = site.author -%}
-      {%- if _site_author.type == 'organization' -%}
-        {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
-      {%- else -%}
-        {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
-      {%- endif -%}
-  
-      <div itemscope itemtype="{{ _site_author_itemtype }}">
-        <meta itemprop="name" content="{{ _site_author.name }}">
-        {%- assign _site_author_url = _site_author.url | default: '/'-%}
-        {%- include snippets/get-nav-url.html path=_site_author_url -%}
-        {%- assign _site_author_url = __return -%}
-        <meta itemprop="url" content="{{ _site_author_url }}">
-        {%- if _site_author.bio -%}
-          <meta itemprop="description" content="{{ _site_author.bio }}">
-        {%- endif -%}
-        <div class="footer__author-links">
-          {%- include author-links.html author=_site_author -%}
+    <div class="grid">
+      <div class="cell cell--12 cell--lg-6">
+        <h4>Navigation</h4>
+        <nav class="footer-nav">
+          <ul>
+            {%- for _item in site.data.navigation.header -%}
+              {%- include snippets/get-nav-url.html path=_item.url -%}
+              {%- assign _nav_url = __return -%}
+              {%- include snippets/get-nav-url.html path=page.url -%}
+              {%- assign _page_url = __return -%}
+              {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
+              {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
+                <li><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+              {%- else -%}
+                <li><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </nav>
+      </div>
+      <div class="cell cell--12 cell--lg-6">
+        <h2>Kontakt</h2>
+        <br/>
+        <h4>Popchor Mannheim</h4>
+        <a href="mailto:popchor.neckarstadt@gmail.com">popchor.neckarstadt@gmail.com</a>
+        <br/>
+        <a href="https://popchor-mannheim.de">popchor-mannheim.de</a>
+        <div class="social-media">
+          <b>Follow us on Social Media</b>
+          <div class="social-media-icons">
+            <a href="https://www.instagram.com/popchor_mannheim"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Popchormannheim"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/user/popchormannheim"><i class="fab fa-youtube"></i></a>
+          </div>
         </div>
       </div>
-      <div class="site-info mt-2">
-        <div>
-          © {{ site.title }} {{ "today" | date: "%Y" }},
-          Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
-          title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
-        </div>
+
+    </div>
+
+    {%- assign _site_author = site.author -%}
+    {%- if _site_author.type == 'organization' -%}
+    {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
+    {%- else -%}
+    {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
+    {%- endif -%}
+
+    <div itemscope itemtype="{{ _site_author_itemtype }}">
+      <meta itemprop="name" content="{{ _site_author.name }}">
+      {%- assign _site_author_url = _site_author.url | default: '/'-%}
+      {%- include snippets/get-nav-url.html path=_site_author_url -%}
+      {%- assign _site_author_url = __return -%}
+      <meta itemprop="url" content="{{ _site_author_url }}">
+      {%- if _site_author.bio -%}
+      <meta itemprop="description" content="{{ _site_author.bio }}">
+      {%- endif -%}
+      <div class="footer__author-links">
+        {%- include author-links.html author=_site_author -%}
       </div>
     </div>
-  </footer>
+    <div class="site-info mt-2">
+      <div>
+        © {{ site.title }} {{ "today" | date: "%Y" }},
+        Powered by <a title="Jekyll is a simple, blog-aware, static site generator."
+          href="http://jekyllrb.com/">Jekyll</a> & <a title="TeXt is a super customizable Jekyll theme."
+          href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+      </div>
+    </div>
+  </div>
+</footer>

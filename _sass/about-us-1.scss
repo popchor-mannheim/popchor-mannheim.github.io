@@ -4,11 +4,6 @@ img {
 
 .ueber-uns-1 {
 
-    :first-child {
-        display: flex;
-        align-items: center;
-    }
-
     .cell {
         @include adaptive-property(padding,
             map-get($spacers, 5),
@@ -26,4 +21,9 @@ img {
             map-get($base, font-size-lg),
             map-get($base, font-size-md));
     }
+}
+
+.ueber-uns-1 .cell {
+    display: flex;
+    align-items: center;
 }

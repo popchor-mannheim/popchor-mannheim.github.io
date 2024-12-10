@@ -27,7 +27,6 @@ Unser Repertoire reicht von Popsongs bis zu Filmhits, mit einem jährlichen High
 </div>
 <div class="gradient grid ueber-uns-1">
 <div markdown="1" class="cell cell--12 cell--lg-4">
-<br/>
 Abwechslungsreiche Musik, eine starke Chorgemeinschaft und spannende Projekte – dafür steht der Popchor Mannheim.
 </div>
 
@@ -97,13 +96,4 @@ MUSIKALISCHE LEITUNG
 MUSIKALISCHE LEITUNG
 </div>
 </div>
-</div>
-
-<div markdown="1" class="gradient two-column-layout">
-
-### Navigation
-
-[Wer wir sind](#über-den-chor)  
-[Veranstaltungen](#foo)
-
 </div>

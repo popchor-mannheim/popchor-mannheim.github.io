@@ -1,0 +1,46 @@
+.page__footer .cell {
+    @include adaptive-property(padding-top,
+        map-get($spacers, 5),
+        map-get($spacers, 3),
+        map-get($spacers, 3));
+}
+
+.page__footer {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        list-style-type: none
+    }
+
+    a {
+        color: #000000;
+        font-weight: 400;
+    }
+}
+
+.social-media {
+    @include adaptive-property(padding-top,
+        map-get($spacers, 5),
+        map-get($spacers, 3),
+        map-get($spacers, 3));
+
+    i {
+        font-size: 2.5rem;
+        @include adaptive-property(padding-right,
+            map-get($spacers, 3),
+            map-get($spacers, 1),
+            map-get($spacers, 1));
+        @include adaptive-property(padding-top,
+            map-get($spacers, 3),
+            map-get($spacers, 1),
+            map-get($spacers, 1));
+    }
+}
+
+.site-info {
+    text-align: center;
+}
