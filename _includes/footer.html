@@ -18,11 +18,13 @@
                 <li><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
               {%- endif -%}
             {%- endfor -%}
+              {%- include snippets/get-nav-url.html path='/about' -%}
+              <li><a href="{{ __return }}">Datenschutzhinweise</a></li>
           </ul>
         </nav>
       </div>
       <div class="cell cell--12 cell--lg-6">
-        <h2>Kontakt</h2>
+        <h2 id="kontakt">Kontakt</h2>
         <br/>
         <h4>Popchor Mannheim</h4>
         <a href="mailto:popchor.neckarstadt@gmail.com">popchor.neckarstadt@gmail.com</a>
@@ -62,11 +64,13 @@
     </div>
     <div class="site-info mt-2">
       <div>
-        © {{ site.title }} {{ "today" | date: "%Y" }},
-        Powered by <a title="Jekyll is a simple, blog-aware, static site generator."
-          href="http://jekyllrb.com/">Jekyll</a> & <a title="TeXt is a super customizable Jekyll theme."
-          href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+        © {{ site.title }} {{ "today" | date: "%Y" }}<br/>
+        Designed by Charlotte Heyder.<br/> Created with ♥ by Florian Bunsmann.
       </div>
+      <div class="powered-by">
+        View Website on <a href="https://github.com/popchor-mannheim/popchor-mannheim.github.io">Github</a>. Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a>
+         & <a title="TeXt is a super customizable Jekyll theme."href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+        </div>
     </div>
   </div>
 </footer>

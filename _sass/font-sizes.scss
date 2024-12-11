@@ -58,30 +58,6 @@ body {
 
 @include media-breakpoint-down(md) {
     body {
-        font-size: map-get($base, font-size-md);
-
-        h1 {
-            font-size: map-get($base, font-size-h1-md)
-        }
-
-        h2 {
-            font-size: map-get($base, font-size-h2-md)
-        }
-
-        h3 {
-            font-size: map-get($base, font-size-h3-md)
-        }
-
-        h4 {
-            font-size: map-get($base, font-size-h4-md)
-        }
-
-        h5 {
-            font-size: map-get($base, font-size-h5-md)
-        }
-
-        h6 {
-            font-size: map-get($base, font-size-h6-md)
-        }
+        font-size: map-get($base, font-size);
     }
 }

@@ -1,15 +1,23 @@
-.page__footer .cell {
-    @include adaptive-property(padding-top,
-        map-get($spacers, 5),
-        map-get($spacers, 3),
-        map-get($spacers, 3));
+.js-page-footer {
+    display: flex;
+    align-items: stretch;
 }
 
 .page__footer {
 
     .main {
+        flex: 1;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .cell {
+        @include adaptive-property(padding-top,
+            map-get($spacers, 5),
+            map-get($spacers, 3),
+            map-get($spacers, 3));
+        overflow: hidden;
     }
 
     ul {
@@ -32,15 +40,27 @@
         font-size: 2.5rem;
         @include adaptive-property(padding-right,
             map-get($spacers, 3),
-            map-get($spacers, 1),
-            map-get($spacers, 1));
+            map-get($spacers, 2),
+            map-get($spacers, 2));
         @include adaptive-property(padding-top,
             map-get($spacers, 3),
-            map-get($spacers, 1),
-            map-get($spacers, 1));
+            map-get($spacers, 2),
+            map-get($spacers, 2));
     }
 }
 
 .site-info {
     text-align: center;
+    @include adaptive-property(font-size,
+    map-get($base, font-size),
+    map-get($base, font-size-sm),
+    map-get($base, font-size-sm));
+}
+.powered-by {
+    font-size: map-get($base, font-size-xs);
+    color:#202020;
+    a {
+        color:#202020;
+        text-decoration: underline;
+    }
 }
