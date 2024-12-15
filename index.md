@@ -1,8 +1,7 @@
 ---
 layout: landing
 title: Der Popchor Mannheim
-excerpt: >
-  Est 2023
+excerpt: Est 2003
 mode: immersive
 header:
   theme: dark
@@ -19,81 +18,7 @@ article_header:
     src: /assets/images/home_background.jpg
 ---
 
-<div markdown="1" id="about-us" class="about-us hero">
-# Über den <br/> Chor
-
-Unser Repertoire reicht von Popsongs bis zu Filmhits, mit einem jährlichen Highlight: unserem stimmungsvollen Weihnachtskonzert. Die meisten von uns sind zwischen 25 und 55 Jahren alt und kommen aus ganz Mannheim und Umgebung.
-
-</div>
-<div class="gradient grid ueber-uns-1">
-<div markdown="1" class="cell cell--12 cell--lg-4">
-Abwechslungsreiche Musik, eine starke Chorgemeinschaft und spannende Projekte – dafür steht der Popchor Mannheim.
-</div>
-
-<div markdown="1" class="cell cell--12 cell--lg-8">
-![Chor in Aktion](assets/images/about-us.jpg)
-</div>
-</div>
-
-<div markdown="1" class="upcoming-events grid">
-<div markdown="1" class="cell cell--12 cell--lg-6">
-
-## Kommende Events
-
-![Stimmung machen](assets/images/upcoming-events.jpg)
-
-### Chorwettbewerb
-Oktober 2025
-
-</div>
-
-<div markdown="1" class="cell cell--12 cell--lg-6">
-
-## Mitsingen
-
-<br/>
-Du möchtest mitmachen? Wir freuen uns immer über neue Sängerinnen und Sänger in allen Stimmlagen! Schau doch einfach mal unverbindlich bei einer unserer Proben vorbei. Schreibe uns an!
-<br/>
-<br/>
-[MITSINGEN](#kontakt){:.sing-with-us.button.button--primary.button--rounded.button--xl}
-
-</div>
-</div>
-<div markdown="1" class="gradient grid sing-with-us">
-<div markdown="1" class="cell cell--12 cell--lg-6">
-![Chor in action](assets/images/sing-with-us.jpg)
-</div>
-
-<div markdown="1" class="cell cell--12 cell--lg-6">
-# Mitsingen!
-Wir proben jeden Mittwoch von 18 bis 20 Uhr in den Räumen der Liedertafel, K2 31/21 in Mannheim. Zusätzlich organisieren wir meist ein bis zwei Probenwochenenden im Jahr, um intensiv an unserem Repertoire zu arbeiten.
-
-Du möchtest mitmachen? Wir freuen uns immer über neue Sängerinnen und Sänger in allen Stimmlagen! Schau doch einfach mal unverbindlich bei einer unserer Proben vorbei. Schreib uns vorher kurz, damit wir dich willkommen heißen können.
-</div>
-</div>
-
-<div markdown="1" class="choir-conducting">
-# Chorleitung
-<div markdown="1" class="grid">
-<div markdown="1" class="cell cell--12 cell--lg-4">
-![Chorleitung: Christina](assets/images/christina-profile.jpg)
-</div>
-
-<div markdown="1" class="cell cell--12 cell--lg-8">
-> "By featuring positive feedback from others, your potential clients won’t have to take your word for it, instead they can hear and learn from others’ experiences."
-
-**Christina Bandic** <br/>
-MUSIKALISCHE LEITUNG
-</div>
-<div markdown="1" class="cell cell--12 cell--lg-4">
-![Chorleitung: Carsten](assets/images/carsten-profile.jpg)
-</div>
-
-<div markdown="1" class="cell cell--12 cell--lg-8">
-> "By featuring positive feedback from others, your potential clients won’t have to take your word for it, instead they can hear and learn from others’ experiences."
-
-**Carsten Wegner** <br/>
-MUSIKALISCHE LEITUNG
-</div>
-</div>
-</div>
+{% include_relative pages/ueber-uns.md %}
+{% include_relative pages/upcoming-events.md %}
+{% include_relative pages/sing-with-us.md %}
+{% include_relative pages/choir-conducting.md %}

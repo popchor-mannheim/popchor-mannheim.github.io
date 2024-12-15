@@ -1,6 +1,7 @@
 /*
 header overlay background (100% opacity)
 */
+
 .header {
     background: rgba(0, 0, 0, 0);
 
@@ -74,4 +75,15 @@ nav {
     @include media-breakpoint-down(md, (md: 850px)) {
         font-size: map-get($base, font-size-h4-xs);    
     }
+}
+
+@media (min-width: 500px) {
+    .article__header--overlay .overlay {
+        min-height: 70rem
+    }
+}
+
+/** h1 shadow/glow effect */
+.article__header h1 {
+    text-shadow: #2d2929 0.1rem 0.1rem
 }
