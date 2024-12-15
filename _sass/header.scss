@@ -77,13 +77,30 @@ nav {
     }
 }
 
-@media (min-width: 500px) {
-    .article__header--overlay .overlay {
-        min-height: 70rem
-    }
-}
-
 /** h1 shadow/glow effect */
 .article__header h1 {
     text-shadow: #2d2929 0.1rem 0.1rem
+}
+
+.scroll-button {
+    display: none;
+}
+
+
+@include media-breakpoint-down(md) {
+    .scroll-button {
+        display: inline-flex;
+        position: fixed;
+        bottom: map-get($spacers, 3);
+        right: map-get($spacers, 3);
+        height: 3rem;
+        width: 3rem;
+        padding: 0.75rem;
+        background-color: #ff7319cc;
+    }
+
+    .scroll-button-hidden {
+        opacity: 0;
+        transition: opacity 0.5s linear;
+    }
 }
