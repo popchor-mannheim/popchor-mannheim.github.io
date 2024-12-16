@@ -1,4 +1,10 @@
-<header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- if include.theme == 'dark' -%}
+  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- elsif include.theme == 'light' -%}
+  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- else -%}
+  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- endif -%}
   <div class="main">
     <div class="header__title left">
       <div class="header__brand">
@@ -32,7 +38,14 @@
         {%- include snippets/get-nav-url.html path=_paths_root -%}
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         <a href="https://mannheimer-liedertafel.de/">
-          <div class="logo"></div>
+          {%- if include.theme == 'dark' -%}
+          <div class="logo dark"></div>
+          {%- elsif include.theme == 'light' -%}
+          <div class="logo light"></div>
+          {%- else -%}
+            <div class="logo"></div>
+          {%- endif -%}
+          
         </a>
       </div>
     </div>
@@ -46,10 +59,9 @@
     let scrollDebounce;
     document.addEventListener('scroll', (event) => {
       setScrollButtonVisibility = () => {
-        console.log('executing scroll listener');
         const scrollElement = document.documentElement;
         const scrollButton = document.querySelector('.scroll-button');
-        if(scrollElement.scrollTop + scrollElement.clientHeight >= scrollElement.scrollHeight){
+        if(scrollElement.scrollTop + scrollElement.clientHeight >= scrollElement.scrollHeight - 5){
           scrollButton.classList.add(classNameScrollHidden)
         } else {
           scrollButton.classList.remove(classNameScrollHidden)

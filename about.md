@@ -2,6 +2,9 @@
 layout: article
 title: About
 permalink: /about/
+header:
+  theme: light
+  background: "linear-gradient(0.25turn, #ffae7f, #c46b83)"
 ---
 
 ## Datenschutzhinweise gemäß Art. 13 DSGVO

@@ -10,7 +10,7 @@ article_header:
   actions:
     - text: Reach out
       type: error
-      url: /kontakt
+      url: /#kontakt
   height: max(100vh, calc(2 / 3 * 100vw))
   theme: dark
   background_color: "#000000"

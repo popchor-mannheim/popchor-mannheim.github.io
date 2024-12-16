@@ -45,12 +45,18 @@ header overlay background (100% opacity)
     }
 
     .logo {
-        background-image: url("/assets/images/logo-mannheimer-liedertafel.svg");
         height: 100%;
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+    }
+
+    .logo.dark {
+        background-image: url("/assets/images/logo-mannheimer-liedertafel.svg");
+    }
+    .logo.light {
+        background-image: url("/assets/images/logo-mannheimer-liedertafel_light.svg");
     }
 }
 

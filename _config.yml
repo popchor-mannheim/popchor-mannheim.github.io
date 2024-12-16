@@ -156,6 +156,9 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - law-stuff.md
+  - law-stuff.html
+  - pages/**
 
 defaults:
   - scope:
@@ -174,7 +177,7 @@ defaults:
 
 ## => Plugins
 ##############################
-# plugins:
+plugins:
 #  - jekyll-feed
 #  - jekyll-paginate
 #  - jekyll-sitemap
