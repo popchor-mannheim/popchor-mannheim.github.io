@@ -11,7 +11,14 @@
         {%- include snippets/get-nav-url.html path=_paths_root -%}
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         <a href="{{ __return }}">
+          {%- if include.theme == 'dark' -%}
           <img src="{{ '/assets/images/logo_small.png' | relative_url }}" alt="Logo">
+          {%- elsif include.theme == 'light' -%}
+          <img src="{{ '/assets/images/logo_small_black.png' | relative_url }}" alt="Logo">
+          {%- else -%}
+          <img src="{{ '/assets/images/logo_small.png' | relative_url }}" alt="Logo">
+          {%- endif -%}
+          
         </a>
       </div>
     </div>

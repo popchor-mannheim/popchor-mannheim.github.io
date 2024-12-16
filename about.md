@@ -5,6 +5,7 @@ permalink: /about/
 header:
   theme: light
   background: "linear-gradient(0.25turn, #ffae7f, #c46b83)"
+show_title: false
 ---
 
 ## Datenschutzhinweise gemäß Art. 13 DSGVO
@@ -67,3 +68,4 @@ Downloads und Fotokopien von Webseiten – nur für den persönlichen, privaten,
 Die unerlaubte Reproduktion oder Weitergabe einzelner Inhalte oder kompletter Seiten wird straf- und zivilrechtlich verfolgt.
 
 Copyright © {{ "today" | date: "%Y" }} *POPCHOR MANNHEIM*. Alle Rechte vorbehalten.
+<hr>
