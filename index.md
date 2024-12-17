@@ -15,7 +15,7 @@ article_header:
   theme: dark
   background_color: "#000000"
   background_image:
-    src: /assets/images/home_background.jpg
+    src: /assets/images/home_background.avif
 ---
 
 {% include_relative pages/ueber-uns.md %}

@@ -1,6 +1,6 @@
 <div class="gradient grid sing-with-us">
 <div markdown="1" class="cell cell--12 cell--lg-6">
-![Chor in action](assets/images/sing-with-us.jpg)
+![Chor in action](assets/images/sing-with-us.avif)
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-6">

@@ -10,6 +10,6 @@ Abwechslungsreiche Musik, eine starke Chorgemeinschaft und spannende Projekte â€
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-8">
-![Chor in Aktion](assets/images/about-us.jpg)
+![Chor in Aktion](assets/images/about-us.avif)
 </div>
 </div>

@@ -2,7 +2,7 @@
 # Chorleitung
 <div class="grid">
 <div markdown="1" class="cell cell--12 cell--lg-4">
-![Chorleitung: Christina](assets/images/christina-profile.jpg)
+![Chorleitung: Christina](assets/images/christina-profile.avif)
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-8">
@@ -12,7 +12,7 @@
 MUSIKALISCHE LEITUNG
 </div>
 <div markdown="1" class="cell cell--12 cell--lg-4">
-![Chorleitung: Carsten](assets/images/carsten-profile.jpg)
+![Chorleitung: Carsten](assets/images/carsten-profile.avif)
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-8">

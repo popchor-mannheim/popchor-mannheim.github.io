@@ -3,7 +3,7 @@
 
 ## Kommende Events
 
-![Stimmung machen](assets/images/upcoming-events.jpg)
+![Stimmung machen](assets/images/upcoming-events.avif)
 
 ### Chorwettbewerb
 Oktober 2025
