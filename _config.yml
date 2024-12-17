@@ -159,6 +159,7 @@ exclude:
   - law-stuff.md
   - law-stuff.html
   - pages/**
+  - scripting/**
   # - assets/android-chrome-192x192.png
   # - assets/android-chrome-512x512.png
   # - assets/browserconfig.xml
@@ -193,3 +194,6 @@ plugins:
 #  - jekyll-paginate
 #  - jekyll-sitemap
 #  - jemoji
+
+sass:
+  style: compressed

@@ -1,0 +1,12 @@
+{
+  "name": "scripting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "extract-used-css.js",
+  "type": "module",
+  "scripts": {
+    "test": "node extract-used-css.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
