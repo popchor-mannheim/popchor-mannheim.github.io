@@ -87,7 +87,7 @@ paginate_path: /page:num # don't change this unless for special need
 
 ## => Sources
 ##############################
-sources: # bootcdn (default), unpkg
+sources: cdnjs # bootcdn (default), unpkg
 
 
 ## => Sharing
@@ -159,6 +159,17 @@ exclude:
   - law-stuff.md
   - law-stuff.html
   - pages/**
+  # - assets/android-chrome-192x192.png
+  # - assets/android-chrome-512x512.png
+  # - assets/browserconfig.xml
+  # - assets/favicon-16x16.png
+  # - assets/favicon-32x32.png
+  # - assets/mstile-144x144.png
+  # - assets/mstile-150x150.png
+  # - assets/mstile-310x150.png
+  # - assets/mstile-310x310.png
+  # - assets/mstile-70x70.png
+  # - assets/safari-pinned-tab.svg
 
 defaults:
   - scope:
