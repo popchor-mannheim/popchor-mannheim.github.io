@@ -1,0 +1,29 @@
+img {
+    max-width: 100%
+}
+
+.ueber-uns-1 {
+
+    .cell {
+        @include adaptive-property(padding,
+            map-get($spacers, 5),
+            map-get($spacers, 3),
+            map-get($spacers, 1));
+    }
+
+    .grid {
+        justify-content: center;
+    }
+
+    p {
+        @include adaptive-property(font-size,
+            map-get($base, font-size-xl),
+            map-get($base, font-size-lg),
+            map-get($base, font-size-md));
+    }
+}
+
+.ueber-uns-1 .cell {
+    display: flex;
+    align-items: center;
+}

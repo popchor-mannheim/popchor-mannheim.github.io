@@ -1,0 +1,9 @@
+.page__content:has(.layout--404){
+    background: linear-gradient(0.25turn, #ffae7f, #c46b83)
+}
+
+.page__content hr,
+hr {
+    border-color: #3c3c3c;
+    border-style: solid
+}

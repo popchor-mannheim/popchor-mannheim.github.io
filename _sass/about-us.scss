@@ -1,0 +1,26 @@
+.about-us {
+  @include page-borders-left-right;
+}
+
+.about-us {
+  min-height: 80vh;
+  padding-right: 45%;
+
+  @include media-breakpoint-down(lg) {
+    padding-right: 25%;
+  }
+
+  h1 {
+    line-height: map-get($base, font-size-h1-xl);
+
+    @include media-breakpoint-down(lg) {
+      line-height: map-get($base, font-size-h1-lg);
+    }
+  }
+
+  // p {
+  //   font-size: map-get($base, font-size-root);
+  //   font-weight: 500;
+  //   text-align: justify;
+  // }
+}

@@ -1,0 +1,9 @@
+.sing-with-us{
+    .cell {
+        @include adaptive-property(
+            padding,
+            map-get($spacers, 5),
+            map-get($spacers, 3),
+            map-get($spacers, 3));    
+    }
+}

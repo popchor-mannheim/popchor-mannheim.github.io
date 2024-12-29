@@ -1,0 +1,31 @@
+header:
+  - titles:
+      # @start locale config
+      de      : &de       Über uns
+      # @end locale config
+    url: >-
+      /#ber-den--chor
+  - titles:
+      # @start locale config
+      de      : &de       Veranstaltungen
+      # @end locale config
+    url: >-
+      /#kommende-events
+  - titles:
+      # @start locale config
+      de      : &de       Mitsingen
+      # @end locale config
+    url: >-
+      /#mitsingen-1
+  - titles:
+      # @start locale config
+      de      : &de       Chorleitung
+      # @end locale config
+    url: >-
+      /#chorleitung
+  - titles:
+      # @start locale config
+      de      : &de       Kontakt
+      # @end locale config
+    url: >-
+      /#kontakt

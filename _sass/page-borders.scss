@@ -1,0 +1,29 @@
+@mixin page-borders-left-right() {
+    padding-left: map-get($spacers, 5) * 2;
+    padding-right: map-get($spacers, 5) * 2;
+
+    @include media-breakpoint-down(lg) {
+        padding-left: map-get($spacers, 5);
+        padding-right: map-get($spacers, 5);
+    }
+
+    @include media-breakpoint-down(md) {
+        padding-left: map-get($spacers, 4);
+        padding-right: map-get($spacers, 4);
+    }
+}
+
+@mixin page-borders-top-and-bottom(){
+    padding-top: map-get($spacers, 5);
+    padding-bottom: map-get($spacers, 5);
+
+    @include media-breakpoint-down(lg) {
+        padding-top: map-get($spacers, 4);
+        padding-bottom: map-get($spacers, 4);
+    }
+
+    @include media-breakpoint-down(md) {
+        padding-top: map-get($spacers, 4);
+        padding-bottom: map-get($spacers, 4);
+    }
+}

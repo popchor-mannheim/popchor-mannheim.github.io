@@ -1,0 +1,82 @@
+{%- if include.theme == 'dark' -%}
+  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- elsif include.theme == 'light' -%}
+  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- else -%}
+  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- endif -%}
+  <div class="main">
+    <div class="header__title left">
+      <div class="header__brand">
+        {%- include snippets/get-nav-url.html path=_paths_root -%}
+        {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+        <a href="{{ __return }}">
+          {%- if include.theme == 'dark' -%}
+          <img src="{{ '/assets/images/logo_small.avif' | relative_url }}" alt="Logo">
+          {%- elsif include.theme == 'light' -%}
+          <img src="{{ '/assets/images/logo_small_black.avif' | relative_url }}" alt="Logo">
+          {%- else -%}
+          <img src="{{ '/assets/images/logo_small.avif' | relative_url }}" alt="Logo">
+          {%- endif -%}
+          
+        </a>
+      </div>
+    </div>
+    {%- if site.data.navigation.header -%}
+    <nav class="navigation">
+      <ul>
+        {%- for _item in site.data.navigation.header -%}
+          {%- include snippets/get-nav-url.html path=_item.url -%}
+          {%- assign _nav_url = __return -%}
+          {%- include snippets/get-nav-url.html path=page.url -%}
+          {%- assign _page_url = __return -%}
+          {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
+          {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
+            <li class="navigation__item navigation__item--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+          {%- else -%}
+            <li class="navigation__item"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
+    {%- endif -%}
+    <div class="header__title right">
+      <div class="header__brand">
+        {%- include snippets/get-nav-url.html path=_paths_root -%}
+        {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+        <a href="https://mannheimer-liedertafel.de/">
+          {%- if include.theme == 'dark' -%}
+          <div class="logo dark"></div>
+          {%- elsif include.theme == 'light' -%}
+          <div class="logo light"></div>
+          {%- else -%}
+            <div class="logo"></div>
+          {%- endif -%}
+          
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<a class="button--primary button--circle scroll-button" onclick="window.scrollBy({ top: window.innerHeight, behavior: 'smooth'})">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z"/></svg>
+  <script type="text/javascript">
+    const classNameScrollHidden = 'scroll-button-hidden';
+    let scrollDebounce;
+    document.addEventListener('scroll', (event) => {
+      setScrollButtonVisibility = () => {
+        const scrollElement = document.documentElement;
+        const scrollButton = document.querySelector('.scroll-button');
+        if(scrollElement.scrollTop + scrollElement.clientHeight >= scrollElement.scrollHeight - 5){
+          scrollButton.classList.add(classNameScrollHidden)
+        } else {
+          scrollButton.classList.remove(classNameScrollHidden)
+        }
+        
+      };
+      if(scrollDebounce) clearTimeout(scrollDebounce);
+      scrollDebounce = setTimeout(setScrollButtonVisibility, 50)
+    })
+  </script>
+</a>

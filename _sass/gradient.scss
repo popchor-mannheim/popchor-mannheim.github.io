@@ -1,0 +1,6 @@
+.gradient {
+    min-height: 80vh;
+    background: linear-gradient(0.25turn, #ffae7f, #c46b83);
+    
+    @include page-borders-left-right;
+}

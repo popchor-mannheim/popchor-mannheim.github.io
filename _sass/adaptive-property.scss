@@ -1,0 +1,27 @@
+@mixin adaptive-property($propertyName, $value-xl, $value-lg, $value-md) {
+    #{$propertyName}: $value-xl;
+
+    @include media-breakpoint-down(lg) {
+        #{$propertyName}: $value-lg;
+    }
+
+    @include media-breakpoint-down(md) {
+        #{$propertyName}: $value-md;
+    }
+}
+
+@mixin adaptive-property-xl($propertyName, $value-xl, $value-lg, $value-md, $value-sm) {
+    #{$propertyName}: $value-xl;
+
+    @include media-breakpoint-down(xl) {
+        #{$propertyName}: $value-lg;
+    }
+
+    @include media-breakpoint-down(lg) {
+        #{$propertyName}: $value-md;
+    }
+
+    @include media-breakpoint-down(md) {
+        #{$propertyName}: $value-sm;
+    }
+}

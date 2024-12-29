@@ -1,0 +1,28 @@
+.upcoming-events {
+
+    background-color: #f4f1eb;
+
+    @include page-borders-left-right;
+    @include page-borders-top-and-bottom;
+
+    .cell {
+
+        @include adaptive-property(padding-left, map-get($spacers, 5), map-get($spacers, 3), map-get($spacers, 1));
+        @include adaptive-property(padding-right, map-get($spacers, 5), map-get($spacers, 3), map-get($spacers, 1))
+    
+    }
+
+    img {
+        margin-top: map-get($spacers, 5);
+        margin-bottom: map-get($spacers, 5);
+        @include media-breakpoint-down(lg) {
+            margin-top: map-get($spacers, 3);
+            margin-bottom: map-get($spacers, 3);
+        }
+    
+        @include media-breakpoint-down(md) {
+            margin-top: map-get($spacers, 1);
+            margin-bottom: map-get($spacers, 1);
+        }
+    }
+}
