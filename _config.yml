@@ -160,6 +160,7 @@ exclude:
   - law-stuff.html
   - pages/**
   - scripting/**
+  - vendor
   # - assets/android-chrome-192x192.png
   # - assets/android-chrome-512x512.png
   # - assets/browserconfig.xml
