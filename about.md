@@ -10,11 +10,11 @@ show_title: false
 
 ## Datenschutzhinweise gemäß Art. 13 DSGVO
 
-<!--## Verantwortliche Stelle
-POPCHOR MANNHEIM  
-c/o Liedertafel Mannheim  
+### Verantwortliche Stelle
+Mannheimer Liedertafel e.V.  
+Herr Carsten Schüre  
 K2, 31/32  
-68159 Mannheim-->
+68159 Mannheim
 
 Bei Fragen zum Datenschutz stehen wir Ihnen unter [kontakt.popchormannheim@gmail.com](mailto:kontakt.popchormannheim@gmail.com) oder unter der oben angegebenen postalischen Anschrift zur Verfügung.
 

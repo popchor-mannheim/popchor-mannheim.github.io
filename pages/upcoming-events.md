@@ -9,9 +9,9 @@
 
 ### Sommerkonzert 2025
 
-Datum: ??.??.25
+Datum: *tba*
 
-Ort: ??
+Ort: *tba*
 
 Ein buntes Programm erwartet unser Publikum bei unserem alljährlichen Sommerkonzert! Diesmal durften Mitglieder aus dem Chor sich Stücke wünschen. Unsere musikalische Leitung hat daraus wieder eines stimmiges Gesamtkonzept erstellt! Am besten gleich im Kalender vormerken!
 
@@ -23,12 +23,12 @@ Ein buntes Programm erwartet unser Publikum bei unserem alljährlichen Sommerkon
 
 ![Stimmung machen](assets/images/upcoming-events-2.avif)
 
-### Chorwettbewerb powered by ?
-Datum: ??.??.25
+### Coming soon
+Datum: *tba*
 
-Ort: ??
+Ort: *tba*
 
-Unser musikalisches Können wollen wir diesmal auch in einem Wettbewerb zur Schau stellen. Details folgen!
+Unser musikalisches Können werden wir dieses Jahr auch anderweitig zur Schau stellen. Details folgen!
 
 </div>
 </div>
