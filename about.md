@@ -16,7 +16,7 @@ Herr Carsten Schüre
 K2, 31/32  
 68159 Mannheim
 
-Bei Fragen zum Datenschutz stehen wir Ihnen unter [kontakt.popchormannheim@gmail.com](mailto:kontakt.popchormannheim@gmail.com) oder unter der oben angegebenen postalischen Anschrift zur Verfügung.
+Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
 
 ### Datenverarbeitung auf unserer Webseite und weiteren Online-Angeboten
 
