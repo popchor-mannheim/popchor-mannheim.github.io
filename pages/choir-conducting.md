@@ -16,7 +16,7 @@ MUSIKALISCHE LEITUNG
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-8">
-> Carsten ist der zweite Teil unseres dynamisches Duos, der nicht nur mit seiner guten Laune Christina in Nichts nachsteht. Als absolutes Multitalent spielt er nicht nur hervorranged Klavier, häufig bringt er zeitgleich auch noch seine gesanglichen Qualitäten im Tenor ein.
+> Carsten ist der zweite Teil unseres dynamisches Duos, der es regelmäßig schafft uns mit seiner guten Stimmung und seinem Lächeln anzustecken. Als absolutes Multitalent spielt er nicht nur hervorragend Klavier, häufig bringt er zeitgleich auch noch seine gesanglichen Qualitäten im Tenor ein.
 
 **Carsten Wegner** <br/>
 MUSIKALISCHE LEITUNG
