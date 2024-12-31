@@ -11,10 +11,12 @@ show_title: false
 ## Datenschutzhinweise gemäß Art. 13 DSGVO
 
 ### Verantwortliche Stelle
-Mannheimer Liedertafel e.V.  
-Herr Carsten Schüre  
-K2, 31/32  
-68159 Mannheim
+
+{% assign liedertafel = site.liedertafel %}
+{{ liedertafel.name }}  
+{{ site.author.dpp_officer }}  
+{{ liedertafel.street }}  
+{{ liedertafel.postal_code}} {{ liedertafel.city }}
 
 Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
 
@@ -67,5 +69,5 @@ Downloads und Fotokopien von Webseiten – nur für den persönlichen, privaten,
 
 Die unerlaubte Reproduktion oder Weitergabe einzelner Inhalte oder kompletter Seiten wird straf- und zivilrechtlich verfolgt.
 
-Copyright © {{ "today" | date: "%Y" }} *POPCHOR MANNHEIM*. Alle Rechte vorbehalten.
+Copyright © {{ "today" | date: "%Y" }} *{{ site.author.name | upcase }}*. Alle Rechte vorbehalten.
 <hr>

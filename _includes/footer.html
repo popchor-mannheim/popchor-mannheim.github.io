@@ -25,24 +25,24 @@
       </div>
       <div class="cell cell--12 cell--lg-6">
         <h2 id="kontakt">Kontakt</h2>
-        <h4>Popchor Mannheim</h4>
-        <a href="mailto:popchor.neckarstadt@gmail.com">popchor.neckarstadt@gmail.com</a>
+        <h4>{{ site.author.name }}</h4>
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
         <br/>
-        <a href="https://popchor-mannheim.de">popchor-mannheim.de</a><br><br>
-        <p>Wir sind Teil der <br> <a href="https://mannheimer-liedertafel.de"><u>Mannheimer Liedertafel e. V.</u></a><br/>
-          K2, 31/32<br/>
-          68159 Mannheim
+        <a href="{{ site.url }}">popchor-mannheim.de</a><br><br>
+        {% assign liedertafel = site.liedertafel %}
+        <p>Wir sind Teil der <br> <a href="{{ liedertafel.url }}"><u> {{ liedertafel.name }}</u></a><br/>
+          {{ liedertafel.street }}<br/>
+          {{ liedertafel.postal_code }} {{ liedertafel.city }}
         </p>
         <div class="social-media">
           <b>Follow us on Social Media</b>
           <div class="social-media-icons">
-            <a href="https://www.instagram.com/popchor_mannheim"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/Popchormannheim"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.youtube.com/user/popchormannheim"><i class="fab fa-youtube"></i></a>
+            <a href="{{ site.author.instagram }}"><i class="fab fa-instagram"></i></a>
+            <a href="{{ site.author.facebook }}"><i class="fab fa-facebook-f"></i></a>
+            <a href="{{ site.author.instagram }}"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
       </div>
-
     </div>
 
     {%- assign _site_author = site.author -%}
@@ -62,17 +62,19 @@
       <meta itemprop="description" content="{{ _site_author.bio }}">
       {%- endif -%}
       <div class="footer__author-links">
+        {% comment %}
         {%- include author-links.html author=_site_author -%}
+        {% endcomment %}
       </div>
     </div>
     <div class="site-info mt-2">
       <div>
         © {{ site.title }} {{ "today" | date: "%Y" }}<br/>
-        Designed by Charlotte Heyder<br/>
-        Created with ♥ by Florian Bunsmann
+        Designed by {{ site.author.designer }}<br/>
+        Created with ♥ by {{ site.author.creator }}
       </div>
       <div class="powered-by">
-        View Website on <a href="https://github.com/popchor-mannheim/popchor-mannheim.github.io">Github</a>. Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a>
+        View Website on <a href="{{ site.repository }}">Github</a>. Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a>
          & <a title="TeXt is a super customizable Jekyll theme."href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
         </div>
     </div>

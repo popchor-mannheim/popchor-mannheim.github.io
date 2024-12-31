@@ -44,7 +44,7 @@
       <div class="header__brand">
         {%- include snippets/get-nav-url.html path=_paths_root -%}
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
-        <a href="https://mannheimer-liedertafel.de/">
+        <a href="{{ site.liedertafel.url }}/">
           {%- if include.theme == 'dark' -%}
           <div class="logo dark"></div>
           {%- elsif include.theme == 'light' -%}
