@@ -30,19 +30,20 @@
     }
 }
 
+.celebrate,
 .social-media {
-    @include adaptive-property(padding-top,
+    @include adaptive-property(margin-top,
         map-get($spacers, 5),
         map-get($spacers, 3),
         map-get($spacers, 3));
 
     i {
         font-size: 2.5rem;
-        @include adaptive-property(padding-right,
+        @include adaptive-property(margin-right,
             map-get($spacers, 3),
             map-get($spacers, 2),
             map-get($spacers, 2));
-        @include adaptive-property(padding-top,
+        @include adaptive-property(margin-top,
             map-get($spacers, 3),
             map-get($spacers, 2),
             map-get($spacers, 2));
