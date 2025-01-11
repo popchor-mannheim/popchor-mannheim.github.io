@@ -84,8 +84,10 @@ nav {
 }
 
 /** h1 shadow/glow effect */
-.article__header h1 {
-    text-shadow: #2d2929 0.1rem 0.1rem
+.hero__content {
+    h1,p {
+        text-shadow: #535353 0.1rem 0.1rem
+    }
 }
 
 .scroll-button {

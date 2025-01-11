@@ -1,14 +1,14 @@
 .about-us {
   @include page-borders-left-right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-us {
   min-height: 80vh;
-  padding-right: 45%;
 
-  @include media-breakpoint-down(lg) {
-    padding-right: 25%;
-  }
+  @include adaptive-property(padding-right, 35%, 25%, 1.5rem);
 
   h1 {
     line-height: map-get($base, font-size-h1-xl);
@@ -17,10 +17,4 @@
       line-height: map-get($base, font-size-h1-lg);
     }
   }
-
-  // p {
-  //   font-size: map-get($base, font-size-root);
-  //   font-weight: 500;
-  //   text-align: justify;
-  // }
 }

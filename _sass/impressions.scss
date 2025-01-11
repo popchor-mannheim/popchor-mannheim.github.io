@@ -1,9 +1,14 @@
-.sing-with-us{
+.impressions {
+    background-color: #f4f1eb;
+    box-shadow: 0px 4px 6px 0px #222;
     .cell {
         @include adaptive-property(
             padding,
             map-get($spacers, 5),
             map-get($spacers, 3),
             map-get($spacers, 3));
+    }
+    .cell:has(> h1) {
+        padding-bottom: 0;
     }
 }

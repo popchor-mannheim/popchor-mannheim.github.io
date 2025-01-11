@@ -19,10 +19,10 @@ header:
       /#mitsingen-1
   - titles:
       # @start locale config
-      de      : &de       Chorleitung
+      de      : &de       Eindrücke
       # @end locale config
     url: >-
-      /#chorleitung
+      /#eindrcke--presse
   - titles:
       # @start locale config
       de      : &de       Kontakt

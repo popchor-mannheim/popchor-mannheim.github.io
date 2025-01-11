@@ -18,11 +18,12 @@
                 <li><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
               {%- endif -%}
             {%- endfor -%}
+              <li><a href="/#chorleitung">Chorleitung</a></li>
               {%- include snippets/get-nav-url.html path='/about' -%}
               <li><a href="{{ __return }}">Datenschutzhinweise & Rechtliches</a></li>
           </ul>
         </nav>
-        <button class="celebrate button button--primary button--rounded button--xl">Celebrate</button>
+        <button class="celebrate button button--primary button--rounded button--xl">Celebrate!</button>
       </div>
       <div class="cell cell--12 cell--lg-6">
         <h2 id="kontakt">Kontakt</h2>
