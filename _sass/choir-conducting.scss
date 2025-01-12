@@ -8,15 +8,10 @@
 
     .cell {
     
-        padding: map-get($spacers, 5);
-    
-        @include media-breakpoint-down(lg) {
-            padding: map-get($spacers, 3);
-        }
-    
-        @include media-breakpoint-down(md) {
-            padding: map-get($spacers, 1);
-        }
+        @include adaptive-property(padding,
+            map-get($spacers, 5),
+            map-get($spacers, 3),
+            map-get($spacers, 1));
         
         > p {
             color: #a2a2a2;
@@ -32,16 +27,11 @@
     }
 
     blockquote p {
-        font-size: map-get($base, font-size-xl);
+        @include adaptive-property(font-size,
+            map-get($base, font-size-xl),
+            map-get($base, font-size-lg),
+            map-get($base, font-size));
         font-weight: 600;
         color: #010101;
-    
-        @include media-breakpoint-down(lg) {
-            font-size: map-get($base, font-size-lg);
-        }
-    
-        @include media-breakpoint-down(md) {
-            font-size: map-get($base, font-size-md);
-        }
     }
 }
