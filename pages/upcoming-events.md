@@ -1,6 +1,6 @@
 <div markdown="1" class="upcoming-events grid">
 <div markdown="1" class="cell cell--12">
-## Kommende Events
+# Kommende Events
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-6">

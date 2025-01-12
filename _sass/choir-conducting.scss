@@ -1,6 +1,6 @@
 .choir-conducting {
     @include page-borders-left-right;
-    @include page-borders-top-and-bottom;
+    @include page-borders-top-bottom;
 
     img {
         border-radius: 50%;

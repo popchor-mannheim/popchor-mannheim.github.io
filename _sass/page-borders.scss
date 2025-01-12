@@ -13,7 +13,7 @@
     }
 }
 
-@mixin page-borders-top-and-bottom(){
+@mixin page-borders-top-bottom(){
     padding-top: map-get($spacers, 5);
     padding-bottom: map-get($spacers, 5);
 

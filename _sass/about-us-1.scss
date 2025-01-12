@@ -4,6 +4,14 @@ img {
 
 .ueber-uns-1 {
 
+    &.gradient {
+        min-height: 80vh;
+
+        @include media-breakpoint-down(md){
+            flex-direction: column-reverse;
+            min-height: 50vh;
+        }
+    }
     .cell {
         @include adaptive-property(padding,
             map-get($spacers, 5),
@@ -19,7 +27,11 @@ img {
         @include adaptive-property(font-size,
             map-get($base, font-size-xl),
             map-get($base, font-size-lg),
-            map-get($base, font-size-md));
+            map-get($base, font-size));
+        
+        @include media-breakpoint-down(md){
+            font-weight: bold;
+        }
     }
 }
 

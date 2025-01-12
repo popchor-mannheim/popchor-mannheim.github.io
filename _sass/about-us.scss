@@ -1,5 +1,6 @@
 .about-us {
   @include page-borders-left-right;
+  @include page-borders-top-bottom;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,6 +8,9 @@
 
 .about-us {
   min-height: 80vh;
+  @include media-breakpoint-down(md) {
+    min-height: 50vh;
+  }
 
   @include adaptive-property(padding-right, 35%, 25%, 1.5rem);
 
@@ -15,6 +19,10 @@
 
     @include media-breakpoint-down(lg) {
       line-height: map-get($base, font-size-h1-lg);
+    }
+
+    @include media-breakpoint-down(md){
+      font-size: map-get($base, font-size-h2);
     }
   }
 }

@@ -1,9 +1,51 @@
 .sing-with-us{
-    .cell {
-        @include adaptive-property(
-            padding,
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include adaptive-property(column-gap,
             map-get($spacers, 5),
             map-get($spacers, 3),
-            map-get($spacers, 3));
+            0);
+    @include page-borders-top-bottom;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        grid-column: 2;
+        align-self: end;
+    }
+
+    > div {
+        align-self: start;  
+        grid-column: 2;
+        grid-row: 2
+    }
+
+    div:has(img){
+        align-self: center;
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    @include media-breakpoint-down(md){
+        grid-template-columns: 1fr;
+        h1 {
+            grid-column: 1;
+            align-self: end;
+        }
+    
+        > div {
+            align-self: start;  
+            grid-column: 1;
+            grid-row: 3
+        }
+    
+        div:has(img){
+            align-self: center;
+            grid-column: 1;
+            grid-row: 2;
+        }
     }
 }
