@@ -8,7 +8,7 @@ Anlässlich der 2023 stattfindenden BUGA zum Thema Nachhaltigkeit führten wir a
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-6">
-![Chor in action](assets/images/sing-with-us.avif)
+![Gruppenfoto auf der Seebühne im Luisenpark](assets/images/buga-highway-to-mars.avif)
 </div>
 
 </div>

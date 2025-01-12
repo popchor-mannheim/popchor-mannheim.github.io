@@ -23,4 +23,5 @@ article_header:
 {% include_relative pages/sing-with-us.md %}
 {% include_relative pages/choir-conducting.md %}
 {% include_relative pages/impressions-1-caroling.md %}
+{% include_relative pages/impressions-2-jubilee.md %}
 {% include_relative pages/impressions-3-highway-to-mars.md %}

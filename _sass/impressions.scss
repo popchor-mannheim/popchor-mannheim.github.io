@@ -12,3 +12,32 @@
         padding-bottom: 0;
     }
 }
+
+.youtube-overlay {
+    position: relative;
+    display: inline-block;
+
+    img {
+        display: block;
+        border-radius: 1rem;
+    }
+
+    div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($select-color, 0.25);
+        pointer-events: none;
+        border-radius: 1rem;
+    }
+
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4rem;
+    }
+}

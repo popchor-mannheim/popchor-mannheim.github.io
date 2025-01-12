@@ -13,7 +13,7 @@ Am 18. Dezember haben wir in Neckarau für festliche Stimmung gesorgt. Unser Chr
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-6">
-![Chor in action](assets/images/sing-with-us.avif)
+![Weihnachtlich gekleideter Chor](assets/images/christmas-caroling.avif)
 </div>
 
 </div>
