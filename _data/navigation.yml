@@ -16,7 +16,7 @@ header:
       de      : &de       Mitsingen
       # @end locale config
     url: >-
-      /#mitsingen-1
+      /#mitsingen
   - titles:
       # @start locale config
       de      : &de       Eindrücke
