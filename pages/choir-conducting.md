@@ -6,7 +6,7 @@
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-8">
-> Christina beeindruckt uns jedes Mal aufs Neue mit Ihrer Energie, guten Laune und absoluten Leidenschaft für Popmusik. Immer wieder schreibt sie für den Chor Arrangements aktueller Hits oder vereint verschiedenste Stücke zu poppigen Medleys, die das Publikum von den Sitzen reißen.
+> Christina beeindruckt uns jedes Mal aufs Neue mit ihrer Energie, guten Laune und absoluten Leidenschaft für Popmusik. Immer wieder schreibt sie für den Chor Arrangements aktueller Hits oder vereint verschiedenste Stücke zu poppigen Medleys, die das Publikum von den Sitzen reißen.
 
 **Christina Bandic** <br/>
 MUSIKALISCHE LEITUNG
