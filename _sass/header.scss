@@ -23,10 +23,7 @@ header overlay background (100% opacity)
 
 .header__title {
     height: unset;
-    @include adaptive-property(margin-top, 2rem, 1rem, 1rem);
-    @include adaptive-property(margin-bottom, 2rem, 1rem, 1rem);
-    @include adaptive-property(margin-left, 1rem, 0.5rem, 0rem);
-    @include adaptive-property(margin-right, 1rem, 0.5rem, 0rem);
+    @include adaptive-property(margin, 2rem 1rem, 1rem 0.5rem, 1rem 0);
 }
 
 .header__title.left .header__brand {
