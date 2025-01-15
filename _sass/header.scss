@@ -23,12 +23,18 @@ header overlay background (100% opacity)
 
 .header__title {
     height: unset;
-    @include adaptive-property(margin, 2rem, 1rem, 1rem);
+    @include adaptive-property(margin-top, 2rem, 1rem, 1rem);
+    @include adaptive-property(margin-bottom, 2rem, 1rem, 1rem);
+    @include adaptive-property(margin-left, 1rem, 0.5rem, 0rem);
+    @include adaptive-property(margin-right, 1rem, 0.5rem, 0rem);
 }
 
 .header__title.left .header__brand {
     justify-content: start;
     height: unset;
+    img {
+        width: 100%;
+    }
 }
 
 .header__title.right {
@@ -37,6 +43,7 @@ header overlay background (100% opacity)
         justify-content: end;
         height: 100%;
         width: 100%;
+        padding: 1rem
     }
 
     a {
