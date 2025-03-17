@@ -9,11 +9,11 @@
 
 ### Sommerkonzert 2025
 
-Datum: *tba*
+Datum: **5.7.25 um 19 Uhr + 6.7.25 um 17 Uhr**
 
-Ort: *tba*
-
-Ein buntes Programm erwartet unser Publikum bei unserem alljährlichen Sommerkonzert! Diesmal durften Mitglieder aus dem Chor sich Stücke wünschen. Unsere musikalische Leitung hat daraus wieder eines stimmiges Gesamtkonzept erstellt! Am besten gleich im Kalender vormerken!
+Ort: *Kaisergarten, Zehntstraße 28, 68169 Mannheim* <br/><br/>
+  
+Ein buntes Programm erwartet unser Publikum bei unserem alljährlichen Sommerkonzert! Diesmal durften Mitglieder aus dem Chor sich Stücke wünschen. Unsere musikalische Leitung hat daraus wieder eines stimmiges Gesamtkonzept erstellt! Nach dem großen Erfolg im vergangenen Jahr freuen wir uns auch in diesem Jahr im *Kaisergarten* aufzutreten. Somit sind alle Weichen für ein fantastisches Konzert gestellt!
 
 </div>
 
@@ -26,7 +26,7 @@ Ein buntes Programm erwartet unser Publikum bei unserem alljährlichen Sommerkon
 ### Coming soon
 Datum: *tba*
 
-Ort: *tba*
+Ort: *tba*<br/><br/>
 
 Unser musikalisches Können werden wir dieses Jahr auch anderweitig zur Schau stellen. Details folgen!
 
