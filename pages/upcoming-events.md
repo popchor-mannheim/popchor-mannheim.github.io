@@ -24,14 +24,12 @@ Ein buntes Programm erwartet unser Publikum bei unserem alljährlichen Sommerkon
 
 ![Stimmung machen](assets/images/upcoming-events-2.avif)
 
-### Chortag des Kurpfälzer Chorverbandes Mannheim
-Datum: 25.05.2025
+### Weihnachtskonzert
+Datum: vorauss. 6.12.25 und 7.12.25
 
-Ort: Luisenpark Mannheim<br/><br/>
+Ort: tbd <br/><br/>
 
-Der Kurpfälzer Chorverbandes Mannheim (KCV) feiert 50-jähriges Jubiläum und versammelt dazu einige seiner Chöre im wunderschönen Luisenpark. Weitere Infos: <a href="https://kcv-mannheim.de/veranstaltung/50-jahre-chormusik/">https://kcv-mannheim.de/veranstaltung/50-jahre-chormusik</a>
-
-Wir sind dabei und werden ein paar Songs zum Besten geben.
+Save the Date! Dieses Jahr werden wir wieder ein schwungvolles Weihnachtskonzert auf die Beine stellen!
 
 </div>
 </div>
