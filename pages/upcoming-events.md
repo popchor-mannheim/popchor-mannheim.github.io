@@ -24,10 +24,10 @@ Ein buntes Programm erwartet unser Publikum bei unserem alljährlichen Sommerkon
 
 ![Stimmung machen](assets/images/upcoming-events-2.avif)
 
-### Weihnachtskonzert
-Datum: vorauss. 6.12.25 und 7.12.25
+### Weihnachtskonzert 2025
+Datum: **13.12.25 um 19 Uhr + 14.12.25 um 17 Uhr**
 
-Ort: tbd <br/><br/>
+Ort: *Kulturkirche Epiphanias, Andreas-Hofer-Straße 37, 68259 Mannheim-Feudenheim* <br/><br/>
 
 Save the Date! Dieses Jahr werden wir wieder ein schwungvolles Weihnachtskonzert auf die Beine stellen!
 
