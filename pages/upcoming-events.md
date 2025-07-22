@@ -7,8 +7,6 @@
 
 ![Stimmung machen](assets/images/upcoming-events.avif)
 
-### Sommerkonzert 2025
-
 ### Weihnachtskonzert 2025
 Datum: **13.12.25 um 19 Uhr + 14.12.25 um 17 Uhr**
 
