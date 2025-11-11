@@ -19,14 +19,16 @@ Zum ersten Mal kommt es zum musikalischen Aufeinandertreffen mit dem Jungen Ense
 <div markdown="1" class="cell cell--12 cell--lg-6">
 
 
-![Stimmung machen](assets/images/upcoming-events-2.avif)
+![Stimmung machen](assets/images/christmas-concert-2025.avif)
 
 ### Weihnachtskonzert 2025
 Datum: **13.12.25 um 19 Uhr + 14.12.25 um 17 Uhr**
 
-Ort: *Kulturkirche Epiphanias, Andreas-Hofer-Straße 37, 68259 Mannheim-Feudenheim* <br/><br/>
+Ort: *Kulturkirche Epiphanias, Andreas-Hofer-Straße 37, 68259 Mannheim-Feudenheim*
 
-So viel darf schon verraten werden: Bei unserem Weihnachtskonzert erwartet euch eine bunte Mischung aus neuen Hits und beliebten Stücken der vergangenen Jahre aus dem Repertoire unseres Popchors. Einige der Stücke wurden dabei eigens von unserer Chorleitung für uns arrangiert und auf unsere Stärken zugeschnitten. Und damit auch wirklich jeder die Gelegenheit hat dabei zu sein, stehen zwei Termine am Samstagabend um 19 Uhr oder Sonntagnachmittag um 17 Uhr zur Verfügung – es gibt also keine Ausreden - wir freuen uns auf euch!
+#### <a href="https://www.eventbrite.de/e/the-christmas-concert-popchor-mannheim-tickets-1889550710039?aff=web">Tickets via Eventbrite</a> oder bei jedem Popchormitglied!
+<br>
+So viel darf schon verraten werden: Bei unserem Weihnachtskonzert erwartet euch eine bunte Mischung aus neuen Hits und beliebten Stücken der vergangenen Jahre aus dem Repertoire unseres Popchors. Einige der Stücke wurden dabei eigens von unserer Chorleitung für uns arrangiert und auf unsere Stärken zugeschnitten. Und damit auch wirklich jeder die Gelegenheit hat dabei zu sein, stehen zwei Termine am Samstagabend um 19 Uhr oder Sonntagnachmittag um 17 Uhr zur Verfügung – es gibt also keine Ausreden - wir freuen uns auf euch! **Es wird an beiden Abenden auch noch eine Abendkasse geben!** <br/><br/>
 
 </div>
 
