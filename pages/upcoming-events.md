@@ -8,7 +8,7 @@
 ![Stimmung machen](assets/images/popchor-vs-liedertafel.avif)
 
 ### Gemeinsames Konzert mit dem Jungen Ensemble
-Datum: **30.11.2025 um 18 Uhr**
+Datum: **30.11.2025 um 19 Uhr**
 
 Ort: *Matthäuskirche, Rheingoldstr. 30, 68199 Mannheim* <br/><br/>
 
