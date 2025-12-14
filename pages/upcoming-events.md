@@ -7,32 +7,25 @@
 
 ![Stimmung machen](assets/images/popchor-vs-liedertafel.avif)
 
-### Gemeinsames Konzert mit dem Jungen Ensemble
-Datum: **30.11.2025 um 19 Uhr**
+### Auftritt auf dem Mannheimer Weihnachtsmarkt
+Datum: **17.12.2025 um ca. 18 Uhr**
 
-Ort: *Matthäuskirche, Rheingoldstr. 30, 68199 Mannheim* <br/><br/>
+Ort: *Mannheimer Weihnachtsmarkt, Bühne am Wasserturm* <br/><br/>
 
-Zum ersten Mal kommt es zum musikalischen Aufeinandertreffen mit dem Jungen Ensemble im Rahmen eines gemeinsamen Konzerts! Dafür bietet die Matthäuskirche in Neckarau mit ihrer tollen Akustik den perfekten Rahmen. Die beiden Chöre der Liedertafel werden ein buntes Programm auf die Beine stellen, bei dem garantiert für jeden Zuhörer etwas dabei ist!
-
+Ein bisschen poppiger Weihnachtssound darf auf dem Mannheimer Weihnachtsmarkt natürlich nicht fehlen. Wir bringen euch ausgewählte Hits aus unserem Weihnachtskonzert direkt in die Stadt. Festliche Stimmung ist dabei garantiert, denn auch das Junge Ensemble wird ein paar klassische Weihnachtslieder anstimmen. Das alles gibt's auch noch kostenlos. Also, packt euch eure Crew und genießt unseren Auftritt mit einem Heißgetränk eurer Wahl!
 </div>
+
 
 <div markdown="1" class="cell cell--12 cell--lg-6">
 
 
-![Stimmung machen](assets/images/christmas-concert-2025.avif)
+![Stimmung machen](assets/images/upcoming-events-2.avif)
 
-### Weihnachtskonzert 2025
-Datum: **13.12.25 um 19 Uhr + 14.12.25 um 17 Uhr**
+### Stay tuned
+<!-- Datum: ??
+Ort: *??* <br/><br/> -->
 
-Ort: *Kulturkirche Epiphanias, Andreas-Hofer-Straße 37, 68259 Mannheim-Feudenheim*
-
-#### <a href="https://www.eventbrite.de/e/the-christmas-concert-popchor-mannheim-tickets-1889550710039?aff=web">Tickets via Eventbrite</a> oder bei jedem Popchormitglied!
-<br>
-So viel darf schon verraten werden: Bei unserem Weihnachtskonzert erwartet euch eine bunte Mischung aus neuen Hits und beliebten Stücken der vergangenen Jahre aus dem Repertoire unseres Popchors. Einige der Stücke wurden dabei eigens von unserer Chorleitung für uns arrangiert und auf unsere Stärken zugeschnitten. Und damit auch wirklich jeder die Gelegenheit hat dabei zu sein, stehen zwei Termine am Samstagabend um 19 Uhr oder Sonntagnachmittag um 17 Uhr zur Verfügung – es gibt also keine Ausreden - wir freuen uns auf euch! **Es wird an beiden Abenden auch noch eine Abendkasse geben!** <br/><br/>
-
-</div>
-
-<div markdown="1" class="cell cell--12 cell--lg-6">
+Neue Events sind bereits in Planung!
 
 </div>
 </div>
