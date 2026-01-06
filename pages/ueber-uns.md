@@ -12,6 +12,6 @@ Abwechslungsreiche Musik, eine starke Chorgemeinschaft und spannende Projekte â€
 </div>
 
 <div markdown="1" class="cell cell--12 cell--lg-6">
-![Chor in Aktion](assets/images/about-us.avif)
+![Chor in Aktion](assets/images/Christmas-Concert-2025_flashlights.avif)
 </div>
 </div>
