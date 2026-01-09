@@ -1,9 +1,4 @@
 <div class="grid impressions">
-<div markdown="1" class="cell cell--12 cell--lg-12">
-
-# Eindrücke & Presse
-
-</div>
 <div markdown="1" class="cell cell--12 cell--lg-6">
 
 #### Sommerkonzert - A Million Dreams
