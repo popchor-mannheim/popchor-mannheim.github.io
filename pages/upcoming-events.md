@@ -12,7 +12,7 @@
 Datum: **11.10.2026, 19 Uhr** <br>
 Ort: *Christuskirche, Werderplatz 15, 68161 Mannheim* <br/><br/>
 
-Nach einem gemeinsamen Workshop mit der deutschlandweit bekannten A-Cappella Band [*ANDERS*](https://anders-band.de/) findet abends ein Konzert in der Christuskirche Mannheim statt, wo die Ergebnisse direkt einem großen Publikum präsentiert! Der Eintritt ist frei! Wir freuen uns über regen Zulauf!
+Nach einem gemeinsamen Workshop mit der deutschlandweit bekannten A-Cappella Band [*ANDERS*](https://anders-band.de/) findet abends ein Konzert in der Christuskirche Mannheim statt, wo die Ergebnisse direkt einem großen Publikum präsentiert werden! Der Eintritt ist frei! Wir freuen uns über regen Zulauf!
 <br><br>
 <small>Änderungen jederzeit vorbehalten.<small>
 </div>
