@@ -12,7 +12,7 @@
 Datum: **10.12.2026, 19 Uhr** <br>
 Ort: *Stadtbibliothek Mannheim, N1 1, 68161 Mannheim* <br/><br/>
 
-Lust dem Popchor etwas näher zu kommen? Im Gesprächeformat "Mannheimer Stadtgeschichten" erzählt unsere Chorleitung bestehend aus Christina Bandic und Carsten Wegner von Ihren jeweiligen musikalischen Werdegängen und wie Sie die Arbeit mit dem Popchor erleben. Je nach Lust und Laune geben wir auch noch den ein oder anderen Song zum besten. **Eintritt kostenlos, mehr Infos und <a href=https://www.mannheim.de/de/veranstaltung/mannheimer-stadtgeschichten-im-gespraech-mit-dem-popchor-mannheim>Anmeldung hier</a>.**
+Lust dem Popchor etwas näher zu kommen? Im Gesprächeformat "Mannheimer Stadtgeschichten" erzählt unsere Chorleitung bestehend aus Christina Bandic und Carsten Wegner von Ihren jeweiligen musikalischen Werdegängen und wie Sie die Arbeit mit dem Popchor erleben. Je nach Lust und Laune geben wir auch noch den ein oder anderen Song zum besten. **Eintritt kostenlos, mehr Infos und <a href="https://www.mannheim.de/de/veranstaltung/mannheimer-stadtgeschichten-im-gespraech-mit-dem-popchor-mannheim">Anmeldung hier</a>.**
 <br><br>
 <small>Änderungen jederzeit vorbehalten.<small>
 </div>
