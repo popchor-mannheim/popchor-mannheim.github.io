@@ -8,11 +8,11 @@
 
 ![Stimmung machen](assets/images/Christmas-Concert-25_042_08346.avif)
 
-### Konzert mit der A-Cappella Band *ANDERS*
-Datum: **11.10.2026, 18 Uhr** <br>
-Ort: *Christuskirche, Werderplatz 15, 68161 Mannheim* <br/><br/>
+### Mannheimer Stadtgeschichten - im Gespräch mit dem Popchor Mannheim
+Datum: **10.12.2026, 19 Uhr** <br>
+Ort: *Stadtbibliothek Mannheim, N1 1, 68161 Mannheim* <br/><br/>
 
-Nach einem gemeinsamen Workshop mit der deutschlandweit bekannten A-Cappella Band [*ANDERS*](https://anders-band.de/) findet abends ein Konzert in der Christuskirche Mannheim statt, wo die Ergebnisse direkt einem großen Publikum präsentiert werden! Der Eintritt ist frei! Wir freuen uns über regen Zulauf!
+Lust dem Popchor etwas näher zu kommen? Im Gesprächeformat "Mannheimer Stadtgeschichten" erzählt unsere Chorleitung bestehend aus Christina Bandic und Carsten Wegner von Ihren jeweiligen musikalischen Werdegängen und wie Sie die Arbeit mit dem Popchor erleben. Je nach Lust und Laune geben wir auch noch den ein oder anderen Song zum besten. **Eintritt kostenlos, mehr Infos und <a href=https://www.mannheim.de/de/veranstaltung/mannheimer-stadtgeschichten-im-gespraech-mit-dem-popchor-mannheim>Anmeldung hier</a>.**
 <br><br>
 <small>Änderungen jederzeit vorbehalten.<small>
 </div>
